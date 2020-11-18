@@ -38,4 +38,10 @@ public class EnglishActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+    public void onNurenClicked(View view){
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.nernter.com/"));
+        startActivity(intent);
+
+    }
 }
